@@ -19,7 +19,7 @@ The steps taken are described below
 ## Assign data to variables <a name="Assign data to variables"></a>
 * features <- features.txt, the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals
 
-* activities <- activity_lavels.txt List of activities performed and their corresponding codes
+* activities <- activity_labels.txt List of activities performed and their corresponding codes
 
 * subject_test <- test/subject_test.txt contains test data of volunteer test subjects
 
@@ -46,7 +46,7 @@ The steps taken are described below
 
 
 ## Update activity names <a name="Update"></a>
-* Updated the code column in Tidy_data to use descriptive activity taken corresponding to the numerical code taken from the activities data frame
+* Updated the code column in Tidy_data by replacing the numerical code with the corresponding activity description from the activities variable
 
 ## Update labels to make dataset more readable <a name="Labels"></a>
 * code column in Tidy_data renames to activities
@@ -60,7 +60,7 @@ The steps taken are described below
 * All columns beginning with character "f" replace with "Frequency"
 
 ## Create final data set
-* from the dataset in the previous set, create Final_data by summarizing each variable after grouping by subject and activity
+* from the previous dataset, create Final_data by summarizing each variable after grouping by subject and activity
 * Write Final_data into the Final_data.txt file
 
 
