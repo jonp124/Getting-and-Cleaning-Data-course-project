@@ -21,3 +21,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
     + Uses descriptive activity names for the activities in the data set
     + Updates the variable names with more descriptive and readable labels
     + Creates a second independent tidy data set with the mean of each variable grouped by activity and subject
+* Final_data.txt, the product of run_analysis.R, the final tidy code produced by following the steps described above.
